@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIGMA TASK</title>
+    <link rel="stylesheet" href="newtask.css">
+    <script src="https://kit.fontawesome.com/522275db79.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+        <!-- Task List Section -->
+    <div class="container">
+        <header class="header">
+            <div class="logo"><i class="fa-solid fa-tasks"></i>  Tasklist</div>
+            <nav>
+                <a href="todayTask.html">Today</a>
+                <a href="#">Upcoming</a>
+                <a href="#">All tasks</a>
+            </nav>
+            <div class="plus-button"><button class="add-task-button">+</button></div>
+        </header>
+    </div>
+
+        <div class="new-task">
+            <h1>New task</h1>
+            <form>
+                <label for="task-desc">Task description</label>
+                <input type="text" id="task-desc" placeholder="Enter task description">
+                
+                <label for="due-date">Due date</label>
+                <input type="text" id="due-date" placeholder="Tomorrow">
+                
+                <button type="submit" class="save-button">Save</button>
+            </form>
+        </div>
+    
+</body>
+</html>
